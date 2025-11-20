@@ -30,3 +30,12 @@
 
 # Write your code here:
 
+number1 = int(input("Type the first number"))
+number2 = int(input("Type the second number"))
+operation = input("Enter operation (add, sbtract. multiply)")
+if operation == "add":
+    print(number1+number2)
+elif operation == "subtract":
+    print(number1-number2)
+elif operation == "multiply":
+    print(number1*number2)
