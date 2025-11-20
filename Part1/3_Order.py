@@ -26,3 +26,12 @@
 
 # Write your code here:
 
+number = int(input("Type a number"))
+if number<=10:
+    print("This number is smaller than 10")
+elif number<=100:
+    print("This number is smaller than 100")
+elif number<=1000:
+    print("This number is smaller than 1000")
+else:
+    print("Thank you!")
